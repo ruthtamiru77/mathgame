@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Game</title>
+</head>
+<body>
+
+    <audio id="wrongAudio">
+        <source src="wrong.mp3" type="audio/mpeg">
+        </audio>
+      <audio id="rightAudio">
+        
+        <source src="right.mp3" type="audio/mpeg">
+      </audio>
+    <div class="nav"><h2><span><i class="fa fa-trophy" aria-hidden="true"></i></span> MATH APP</h2>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Add</a></li>
+            <li><a href="subtract.html">Subtract</a></li>
+            <li><a href="multiply.html">Multiply</a></li>
+            <li><a href="divide.html">Divide</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    <div class="container">
+        <div class="numberContainer">
+            <div class="leftNumber">
+                
+            </div>
+            <div class="Sign">
+                <h1><i class="fas fa-plus"></i></h1>
+            </div>
+            <div class="rightNumber">
+                
+            </div>
+        </div>
+      
+        
+        <div class="output">
+            
+        </div>
+        <div class="playerAnswer">
+            <input id="answerInput" type="text" />
+            <input id="checkAnswer" type="submit" value="Check answer" />
+        </div>
+        <div class="buttonContainer">
+            <button class="button">Next question</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
